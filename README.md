@@ -3,6 +3,10 @@
 ## git-flow のインストール(windows)
 コマンドを打ったら動いた。。。
 
+## 参考サイト
+- [git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.ja_JP.html)
+- [Git-flow ～Gitのブランチモデルを知る～](https://tracpath.com/bootcamp/learning_git_git_flow.html)
+
 ## 簡易な使い方
 1. 初期化：git flow init
 2. 
