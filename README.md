@@ -17,3 +17,11 @@
 11. hot fixの開始：git flow hotfix start [hotfix-name]
 12. hot fixの終了：git flow hotfix finish [hotfix-name]
 
+## git-flow ブランチモデルの考え方
+- master ブランチはリリース用。主にdevelop ブランチをマージしていく。
+- develop ブランチがローカルリポジトリでの開発用のブランチ
+- develop ブランチからさらに、featureブランチを作成して開発を進める。
+- feature ブランチからpublishブランチを作成し、publishブランチをリモートリポジトリに push することで、並行開発者に開発中の機能をpushする。
+- feature ブランチからpullすることで、他の開発者のコードをpullできる。
+- release ブランチを作成し、最終版を作成したら、master ブランチの統合する。
+- hotfix ブランチで、バグフィックスをする
