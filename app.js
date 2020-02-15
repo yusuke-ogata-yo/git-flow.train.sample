@@ -9,4 +9,7 @@ $("#run").click(function () {
   else if(n % 5 === 0) {
       $("#output").text("Buzz");
   }
+  else {
+      $("#output").text(n);
+  }
 });
