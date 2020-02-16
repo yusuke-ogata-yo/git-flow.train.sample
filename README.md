@@ -8,18 +8,22 @@
 - [Git-flow ～Gitのブランチモデルを知る～](https://tracpath.com/bootcamp/learning_git_git_flow.html)
 
 ## 簡易な使い方
-1. 初期化：git flow init
-2. 
+1. リポジトリのクローン：git clone https://.....
+2. 初期化：git flow init
+
+開発：フィーチャーはpushしないこと。publlishすること。
 3. フィーチャーの開始：git flow feature start [feature-name]
 4. 同一ブランチでの並行作業者へのpush：git flow feature publish [feature-name]
 5. 同一ブランチで並行作業者からの修正の取り込み：git flow feature pull [feature-name]
 6. フィーチャーの終了：git flow feature finish [feature-name]
-7. 
-8. リリースの開始：git flow release start [release-name]
-9. リリースの終了：git flow release finish [release-name]
-10. 
-11. hot fixの開始：git flow hotfix start [hotfix-name]
-12. hot fixの終了：git flow hotfix finish [hotfix-name]
+
+リリース：
+7. リリースの開始：git flow release start [release-name]
+8. リリースの終了：git flow release finish [release-name]
+
+ホットフィックス：
+9. hot fixの開始：git flow hotfix start [hotfix-name]
+10. hot fixの終了：git flow hotfix finish [hotfix-name]
 
 ## git-flow ブランチモデルの考え方
 - master ブランチはリリース用。主にdevelop ブランチをマージしていく。
